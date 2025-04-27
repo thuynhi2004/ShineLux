@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/huynhlalyla/DO_AN_2.git"
+    "url": "git+https://github.com/thuynhi2004/ShineLux.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/huynhlalyla/DO_AN_2.git/issues"
+    "url": "https://github.com/thuynhi2004/ShineLux/issues"
   },
-  "homepage": "https://github.com/huynhlalyla/DO_AN_2.git#readme",
+  "homepage": "https://github.com/thuynhi2004/ShineLux.git#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "do_an_2": "file:",
