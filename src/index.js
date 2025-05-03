@@ -6,13 +6,15 @@ const cors = require('cors');
 const Router = require('./router/main');
 db.connect();
 
-app.use(cors());
+app.use(cors({
+    origin: 'http://shineluxstore.infinityfreeapp.com'  // hoặc '*' cho phép tất cả
+  }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 Router(app);
 
 app.listen(3000, () => {
-    console.log('Server is running on port http://localhost:3000');
+    console.log('Server is running on port https://shinelux.up.railway.app');
 })
 
 
